@@ -510,3 +510,31 @@ p {
     line-height: 30px;
     padding: 0 66px 0 40px;
 }
+.questions{
+    padding: 150px 0;
+}
+.questions-item{
+    text-align: center;
+    position: relative;
+}
+.questions-title{
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.questions-content{
+    font-size: 13px;
+    text-align: center;
+}
+.questions-link{
+    position: absolute;
+    right: -60px;
+    left: 60px;
+    color: #0A8BFE;
+    margin-bottom: 50px;
+}
+
+.questions-link:hover{
+    color: rgba(244, 69, 69, 0.93);
+}
