@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .burger {
+        font-size: 24px;
+        color: #FFF;
+        display: block;
+        z-index: 2;
+    }
+
+    .menu {
+        background-color: #000;
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        left: -100%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.6s;
+        z-index: 3;
+    }
+.menu.show{
+    left: 0;
+}
+
+}
+
+@media (max-width: 576px) {
+}
