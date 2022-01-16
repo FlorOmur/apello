@@ -108,7 +108,6 @@ p {
 }
 
 .help {
-
     margin-bottom: 125px;
 }
 
@@ -253,9 +252,8 @@ p {
 }
 
 .stats {
-    background-image: url("../img/stats.png");
+
     padding-top: 150px;
-    padding-bottom: 530px;
 }
 
 .stats-row {
@@ -533,6 +531,7 @@ p {
     left: 60px;
     color: #0A8BFE;
     margin-bottom: 50px;
+    transition: 0.4s;
 }
 
 .questions-link:hover{
