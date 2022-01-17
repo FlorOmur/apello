@@ -11,7 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -252,26 +253,39 @@ p {
 }
 
 .stats {
-
-    padding-top: 150px;
+    position: relative;
 }
 
-.stats-row {
+.stats:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../img/stats.png");
+    width: 100%;
+    height: 880px;
+    z-index: -2;
+}
+
+.stats-row .col-3 {
     display: flex;
     justify-content: space-around;
-    position: relative;
 }
 
 .stats-title {
     text-align: center;
     font-size: 41px;
     line-height: 50px;
-    color: #FFFFFF;
+    color: #FFF;
+    padding-top: 150px;
     margin-bottom: 80px;
 }
 
+.stats-item {
+    margin-bottom: 100px;
+}
+
 .stats-number {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 42px;
     line-height: 50px;
 }
@@ -279,17 +293,7 @@ p {
 .stats-content {
     font-size: 11px;
     line-height: 30px;
-    color: #FFFFFF;
-}
-
-.customers {
-
-
-}
-
-.customers-outer {
-
-
+    color: #FFF;
 }
 
 .customers-inner {
@@ -374,30 +378,37 @@ p {
     margin-bottom: 30px;
     transition: 0.6s;
 }
-.regions-col-4:hover{
+
+.regions-col-4:hover {
     transform: scale(1.1);
 }
-.regions-content{
+
+.regions-content {
     margin-bottom: 5px;
 }
-.regions-subtitle{
+
+.regions-subtitle {
     margin-bottom: 33px;
 }
-.regions-item{
+
+.regions-item {
     display: flex;
     justify-content: right;
 }
-.col-4{
+
+.col-4 {
     padding: 0 15px;
     width: 33.333%;
 }
-.callback{
+
+.callback {
     background-image: url("../img/callback.png");
     height: 160vh;
     position: relative;
     margin-bottom: 159px;
 }
-.callback-outer{
+
+.callback-outer {
     position: absolute;
     bottom: 9px;
     left: 0;
@@ -409,17 +420,20 @@ p {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
     padding: 30px 0;
 }
-.callback-title{
+
+.callback-title {
     text-align: left;
     padding-left: 50px;
     font-size: 25px;
     line-height: 38px;
     margin-bottom: 125px;
 }
-.callback-item{
+
+.callback-item {
     margin-bottom: 58px;
 }
-.service-callback{
+
+.service-callback {
     width: 500px;
     height: 60px;
     margin-bottom: 30px;
@@ -431,7 +445,8 @@ p {
     border: 1px solid #E8E8E8;
     border-radius: 4px;
 }
-.service-callback-item{
+
+.service-callback-item {
     width: 500px;
     height: 120px;
     padding-left: 20px;
@@ -443,90 +458,106 @@ p {
     border-radius: 4px;
 }
 
-.about-info{
+.about-info {
     background-color: #f9f9f9;
     height: 100vh;
     padding: 150px 240px;
 }
-.about-info-title{
+
+.about-info-title {
     font-size: 41px;
     line-height: 50px;
     font-weight: 400;
     margin-bottom: 35px;
 }
-.about-info-content{
+
+.about-info-content {
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
     margin-bottom: 45px;
 }
-.about-icon{
+
+.about-icon {
     padding-right: 22px;
     transition: 0.6s;
 }
-.about-icon:hover{
+
+.about-icon:hover {
     transform: scale(1.1);
 }
-.resources{
+
+.resources {
     padding: 150px 0;
 }
 
-.resources-title{
+.resources-title {
 
     font-size: 42px;
     line-height: 50px;
     text-align: center;
     margin-bottom: 35px;
 }
-.resources-content{
+
+.resources-content {
     font-size: 14px;
     line-height: 30px;
     text-align: center;
     margin-bottom: 75px;
 }
-.inner-resouces{
+
+.inner-resouces {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
     height: 677px;
 }
-.img-resources{
+
+.img-resources {
     padding: 13px;
     margin-bottom: 50px;
 }
-.resources-subtitle{
+
+.resources-subtitle {
     font-size: 24px;
     line-height: 38px;
     padding: 0 40px;
     margin-bottom: 20px;
 }
-.resources-subcontent{
+
+.resources-subcontent {
     font-size: 12px;
     line-height: 30px;
     padding: 0 40px 0 48px;
 }
-.resources_subcontent{
+
+.resources_subcontent {
     font-size: 12px;
     line-height: 30px;
     padding: 0 66px 0 40px;
 }
-.questions{
-    padding: 150px 0;
+
+.questions {
+    padding: 75px 0;
+    background-color: #eeeeee;
 }
-.questions-item{
+
+.questions-item {
     text-align: center;
-    position: relative;
+
 }
-.questions-title{
+
+.questions-title {
     font-size: 42px;
     line-height: 50px;
     margin-bottom: 35px;
 }
 
-.questions-content{
+.questions-content {
     font-size: 13px;
     text-align: center;
 }
-.questions-link{
-    position: absolute;
+
+.questions-link {
+
     right: -60px;
     left: 60px;
     color: #0A8BFE;
@@ -534,6 +565,67 @@ p {
     transition: 0.4s;
 }
 
-.questions-link:hover{
+.questions-link:hover {
     color: rgba(244, 69, 69, 0.93);
+}
+
+/*acardion*/
+.expand-collapse {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.expand-collapse p {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 0;
+}
+
+.expand-collapse div {
+    padding: 0;
+    margin: -2px 0 0 0;
+}
+
+.expand-collapse h3 {
+    background-color: #f9f9f9;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 0 2px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.kickstart {
+    padding: 150px 0;
+}
+
+.owl-carousel{
+
+}
+
+.kickstart-title {
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.kickstart-content {
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.link-kickstart {
+    padding: 16px 40px;
+    border: 2px solid #E8E8E8;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.link-kickstart:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    transform: scale(1.1);
 }
