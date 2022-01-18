@@ -249,7 +249,7 @@ p {
 .research-item {
     border: 1px solid #E8E8E8;
     margin-bottom: 40px;
-    padding: 18px 40px 48px 40px;
+    padding: 18px 40px;
 }
 
 .research-title {
@@ -346,6 +346,10 @@ p {
     line-height: 38px;
     margin-bottom: 30px;
 }
+.customers-subcontent{
+    font-size: 16px;
+    line-height: 30px;
+}
 
 .customers-btn {
     display: flex;
@@ -394,7 +398,7 @@ p {
 }
 
 .regions {
-    padding: 59px 0;
+    padding-top: 59px;
     margin-bottom: 10px;
 }
 
@@ -412,7 +416,9 @@ p {
     margin-bottom: 30px;
     transition: 0.6s;
 }
-
+.regions-col-4 .first{
+    margin-bottom: 59px;
+}
 .regions-col-4:hover {
     transform: scale(1.1);
 }
@@ -437,9 +443,10 @@ p {
 
 .callback {
     background-image: url("../img/callback.png");
+    background-repeat: no-repeat;
     height: 160vh;
     position: relative;
-    margin-bottom: 159px;
+    margin-bottom: 75px;
 }
 
 .callback-outer {
@@ -457,10 +464,10 @@ p {
 
 .callback-title {
     text-align: left;
-    padding-left: 50px;
+   text-align: center;
     font-size: 25px;
     line-height: 38px;
-    margin-bottom: 125px;
+    margin-bottom: 85px;
 }
 
 .callback-item {
