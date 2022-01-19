@@ -357,5 +357,36 @@
         font-size: 27px;
         margin-bottom: 5px;
     }
-  
+    .about-info-icons{
+        text-align: center;
+    }
+    .kickstart-title{
+        font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 21px;
+    }
+    .kickstart-content{
+        line-height: 20px;
+        margin-bottom: 23px;
+    }
+    .link-kickstart{
+        font-size: 8px;
+        padding: 12px 11px;
+    }
+    .footer__block{
+        margin-bottom: 24px;
+    }
+    .footer__block-content{
+        font-size: 12px;
+    }
+    .footer .col-4{
+        width: 100%;
+    }
+.footer__list-item{
+    padding: 8px 0;
+}
+    .footer__lower_part{
+        padding: 10px 0;
+        text-align: center;
+    }
 }
