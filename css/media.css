@@ -250,7 +250,7 @@
 }
 
 @media (max-width: 576px) {
-    body{
+    body {
         overflow-x: hidden;
     }
 
@@ -312,80 +312,105 @@
         font-size: 14px;
         margin: 0;
     }
+
     .customers-subcontent {
         font-size: 14px;
         line-height: 20px;
     }
-    .customers-btn{
+
+    .customers-btn {
         margin-bottom: 33px;
     }
-    .about-title{
+
+    .about-title {
         font-size: 24px;
         line-height: 45px;
         margin-bottom: 1px;
     }
-    .about-content{
+
+    .about-content {
         margin-bottom: 16px;
     }
-    .about-item .row .col-3{
+
+    .about-item .row .col-3 {
         width: 50%;
     }
-    .about-item{
+
+    .about-item {
         padding: 50px 0;
         margin: 0;
     }
-    .about-inner{
+
+    .about-inner {
         padding: 20px 10px;
     }
-    .regions{
+
+    .regions {
         padding-top: 31px;
     }
-    .regions-title{
+
+    .regions-title {
         font-size: 29px;
         margin-bottom: 23px;
     }
-    .col-4{
+
+    .col-4 {
         width: 100%;
     }
-    .service-callback{
+
+    .service-callback {
         width: 296px;
     }
-    .service-callback-item{
+
+    .service-callback-item {
         width: 296px;
     }
+
     .about-info-title {
         font-size: 27px;
         margin-bottom: 5px;
     }
-    .about-info-icons{
+
+    .about-info-icons {
         text-align: center;
     }
-    .kickstart-title{
+    .inner-resouces{
+        height: 474px;
+    }
+
+    .kickstart-title {
         font-size: 25px;
         line-height: 20px;
         margin-bottom: 21px;
     }
-    .kickstart-content{
+
+    .kickstart-content {
         line-height: 20px;
         margin-bottom: 23px;
     }
-    .link-kickstart{
+
+    .link-kickstart {
         font-size: 8px;
         padding: 12px 11px;
     }
-    .footer__block{
+
+    .footer__block {
         margin-bottom: 24px;
     }
-    .footer__block-content{
+
+    .footer__block-content {
         font-size: 12px;
     }
-    .footer .col-4{
+
+    .footer .col-4 {
         width: 100%;
     }
-.footer__list-item{
-    padding: 8px 0;
-}
-    .footer__lower_part{
+
+    .footer__list-item {
+        padding: 8px 0;
+    }
+
+    .footer__lower_part {
         padding: 10px 0;
         text-align: center;
     }
