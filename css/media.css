@@ -250,8 +250,8 @@
 }
 
 @media (max-width: 576px) {
-    .container {
-        max-width: 320px;
+    body{
+        overflow-x: hidden;
     }
 
     .callback-outer {
