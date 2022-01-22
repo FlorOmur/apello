@@ -17,7 +17,7 @@ menuLinks.forEach(onelink => {
 AOS.init();
 
 $(document).ready(function () {
-    $('.expand-collapse h3').each(function () {
+    $('.collapse-item').each(function () {
         var tis = $(this), state = false, answer = tis.next('div').slideUp();
         tis.click(function () {
             state = !state;
