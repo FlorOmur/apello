@@ -38,11 +38,13 @@ p {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 3;
-    transition: 0.5s;
+    transition: 0.6s;
 }
-.header_scroll{
-padding: 20px 0;
+
+.header_scroll {
+    padding: 15px 0;
 }
+
 .heder-container {
     display: flex;
     justify-content: space-between;
@@ -59,6 +61,7 @@ padding: 20px 0;
     text-align: center;
     border-radius: 10px;
 }
+
 .menu-link:before {
     content: "";
     position: absolute;
@@ -69,12 +72,15 @@ padding: 20px 0;
     transform: scale(0);
     transition: 0.4s;
 }
+
 .menu-link:hover {
     color: rgba(244, 69, 69, 0.93);
 }
+
 .menu-link:hover:before {
     transform: scale(1);
 }
+
 .heder-btn {
     border: 1px solid rgba(244, 69, 69, 0.93);
     text-align: center;
@@ -235,6 +241,7 @@ padding: 20px 0;
 .tabs-link-item:hover:before {
     transform: scale(1);
 }
+
 .tabs-link-item:hover {
     color: #0A8BFE;
 }
@@ -350,7 +357,8 @@ padding: 20px 0;
     line-height: 38px;
     margin-bottom: 30px;
 }
-.customers-subcontent{
+
+.customers-subcontent {
     font-size: 16px;
     line-height: 30px;
 }
@@ -420,9 +428,11 @@ padding: 20px 0;
     margin-bottom: 30px;
     transition: 0.6s;
 }
-.regions-col-4 .first{
+
+.regions-col-4 .first {
     margin-bottom: 59px;
 }
+
 .regions-col-4:hover {
     transform: scale(1.1);
 }
@@ -468,7 +478,7 @@ padding: 20px 0;
 
 .callback-title {
     text-align: left;
-   text-align: center;
+    text-align: center;
     font-size: 25px;
     line-height: 38px;
     margin-bottom: 85px;
@@ -635,14 +645,17 @@ padding: 20px 0;
     font-size: 19px;
     line-height: 24px;
 }
-.collapse-item h3{
+
+.collapse-item h3 {
     padding: 20px;
 }
-.collapse-icon{
+
+.collapse-icon {
     padding: 20px;
     font-size: 35px;
 }
-.collapse-item img{
+
+.collapse-item img {
     padding: 20px;
 }
 
@@ -718,17 +731,19 @@ padding: 20px 0;
     line-height: 28px;
 }
 
-.footer__lower_part{
+.footer__lower_part {
     display: flex;
     justify-content: space-between;
     padding: 30px;
     border-top: 1px solid #9c9ca0;
 }
-.footer__lower_part-content{
+
+.footer__lower_part-content {
     font-size: 15px;
     line-height: 30px;
 }
-.footer__lower_part-link{
+
+.footer__lower_part-link {
     color: #FFF;
     padding-left: 20px;
     font-size: 16px;

@@ -16,7 +16,7 @@ menuLinks.forEach(onelink => {
 })
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 60) {
         header.classList.add('header_scroll')
     } else {
         header.classList.remove('header_scroll')
