@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -36,13 +37,13 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
     z-index: 3;
     transition: 0.6s;
 }
 
 .header_scroll {
     padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 .heder-container {
@@ -94,7 +95,6 @@ p {
 
 .heder-btn:hover {
     color: rgba(244, 69, 69, 0.93);
-
 }
 
 .burger {
@@ -107,7 +107,6 @@ p {
     background-image: url("../img/hero.png");
     height: 100vh;
     padding-top: 185px;
-
 }
 
 .hero-title {
@@ -477,7 +476,6 @@ p {
 }
 
 .callback-title {
-    text-align: left;
     text-align: center;
     font-size: 25px;
     line-height: 38px;
@@ -493,6 +491,7 @@ p {
     height: 60px;
     margin-bottom: 30px;
     padding-left: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #000;
     font-size: 12px;
@@ -505,6 +504,7 @@ p {
     width: 500px;
     height: 120px;
     padding-left: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #000;
     font-size: 12px;
