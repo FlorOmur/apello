@@ -621,10 +621,6 @@ p {
     margin: 0;
 }
 
-.expand-collapse div {
-    padding: 0;
-}
-
 .collapse-item {
     display: flex;
     justify-content: space-between;
@@ -637,6 +633,10 @@ p {
 }
 .collapse-item h3{
     padding: 20px;
+}
+.collapse-icon{
+    padding: 20px;
+    font-size: 35px;
 }
 .collapse-item img{
     padding: 20px;
