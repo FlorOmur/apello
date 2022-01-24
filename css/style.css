@@ -38,8 +38,11 @@ p {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 3;
+    transition: 0.5s;
 }
-
+.header_scroll{
+padding: 20px 0;
+}
 .heder-container {
     display: flex;
     justify-content: space-between;
