@@ -12,8 +12,6 @@ menuLinks.forEach(onelink => {
     })
 })
 
-
-
 AOS.init();
 
 $(document).ready(function () {
